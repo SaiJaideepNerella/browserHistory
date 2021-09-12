@@ -1,0 +1,79 @@
+.history-container {
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.application-details {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+}
+
+.time {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.image {
+  height: 42px;
+  padding: 18px;
+}
+
+@media screen and (max-height: 762px) {
+  .image {
+    height: 70px;
+  }
+}
+
+.application-name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-right: 12px;
+}
+
+.application-url {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  padding-left: 190px;
+}
+
+@media screen and (min-height: 768px) {
+  .delete-button {
+    padding-left: 190px;
+  }
+}
+
+@media screen and (min-height: 992px) {
+  .delete-button {
+    padding-left: 320px;
+  }
+}
+
+@media screen and (min-height: 1200px) {
+  .delete-button {
+    padding-left: 380px;
+  }
+}
+
+.delete {
+  height: 40px;
+}
